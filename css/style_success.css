@@ -82,3 +82,22 @@ button:active {
     transform: translateY(5px);
     box-shadow: 0 0px 5px rgba(36, 35, 35, 0.655);
 }
+
+
+@media screen and (max-width: 850px) {
+    div#centro {
+        margin: 60px auto;
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        padding: 20px;
+        width: 60%;
+        min-width: 320px;
+        box-sizing: border-box;
+        overflow: hidden;
+    }
+
+    h1 {
+        font-size: 32px;
+    }
+}
