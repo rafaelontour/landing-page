@@ -29,16 +29,12 @@ body {
 }
 
 div#centro {
+    margin: 200px auto;
     display: flex;
-    position: absolute;
     padding: 50px;
     flex-direction: column;
-    top: 50%;
-    left: 50%;
     width: 400px;
     height: 400px;
-    transform: translate(-50%, -50%);
-    margin: auto;
     border-radius: 15px;
     background-color: var(--white);
     border: none;
@@ -86,7 +82,7 @@ button:active {
 
 @media screen and (max-width: 850px) {
     div#centro {
-        margin: 60px auto;
+        margin: 100px auto;
         display: flex;
         flex-direction: column;
         height: auto;
@@ -99,5 +95,26 @@ button:active {
 
     h1 {
         font-size: 32px;
+    }
+
+    footer {
+        text-align: center;
+        margin-bottom: 30px;
+        margin-top: 110px;
+    } 
+    
+    .attribution { 
+        background-color: var(--tomato);
+        padding: 5px;
+        border-radius: 5px;
+        font-family: var(--roboto-regular);
+        display: inline-block;
+        font-size: 11px; 
+        text-align: center; 
+    }
+    
+    .attribution a { 
+        text-decoration: none;
+        color: white; 
     }
 }
