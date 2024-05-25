@@ -119,18 +119,17 @@ div#sucesso {
 }
 
 footer {
+    margin: 100px auto auto auto;
     text-align: center;
-    margin-bottom: 30px;
 } 
 
 .attribution { 
     background-color: var(--tomato);
-    padding: 5px;
+    padding: 10px;
     border-radius: 5px;
     font-family: var(--roboto-regular);
     display: inline-block;
     font-size: 11px; 
-    text-align: center; 
 }
 
 .attribution a { 
