@@ -26,11 +26,7 @@ body {
 /* ################################################ */
 
 div#centro {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    margin: auto;
+    margin: 90px auto 60px auto;
     display: flex;
     justify-content: space-between;
     width: 750px;
@@ -76,12 +72,12 @@ p {
 input {
     padding: 13px;
     border-radius: 5px;
-    width: calc(100% - 28px);  
+    width: calc(100% - 29px);  
 }
 
 input[type="submit"] {
     margin-top: 10px;  
-    width: calc(100%);
+    width: calc(100% );
     background-color: var(--dark-slate-grey);
     color: var(--white);
     border: none;
@@ -122,9 +118,21 @@ div#sucesso {
     
 }
 
-.attribution {
-    position: fixed;
-    left: 50%;
-    transform: translateX(-50%);
-    bottom: 10px;
+footer {
+    text-align: center;
+} 
+
+.attribution { 
+    background-color: var(--tomato);
+    padding: 5px;
+    border-radius: 5px;
+    font-family: var(--roboto-regular);
+    display: inline-block;
+    font-size: 11px; 
+    text-align: center; 
+}
+
+.attribution a { 
+    text-decoration: none;
+    color: white; 
 }
