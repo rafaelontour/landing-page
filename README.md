@@ -13,8 +13,13 @@ Responsive pages
 ##
 
 # Dispositivo móvel
+
 ![](.visualização/mobile.gif)
+
 # Computador 
+
 ![](.visualização/pc.gif)
+
 # Alterando tamanho
+
 ![](.visualização/alterando.gif)
