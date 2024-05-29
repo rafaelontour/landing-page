@@ -14,12 +14,12 @@ Responsive pages
 
 # Dispositivo móvel
 
-![](.visualização/mobile.gif)
+![](./visualização/mobile.gif)
 
 # Computador 
 
-![](.visualização/pc.gif)
+![](./visualização/pc.gif)
 
 # Alterando tamanho
 
-![](.visualização/alterando.gif)
+![](./visualização/alterando.gif)
